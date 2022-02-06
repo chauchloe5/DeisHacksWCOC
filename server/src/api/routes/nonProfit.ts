@@ -1,5 +1,6 @@
 import express from 'express'; 
 import { nonProfits } from '../../db';
+import { companies } from '../../db';
 
 const router = express.Router();
 
@@ -16,9 +17,15 @@ router.get('/', (req, res, next) => {
 router.post('/', (req: any, res, next) => {
   // add profit-id to company.swipe-right
   // non-profit.swipe-right(company-id);
+  const cId = req.body.companyId,
+  const nID = req.body.nonProfitId,
+  
   res.status(201).json({
-    id: req.body.id, // get nonProfit id
-    
+
+
+
+    const company = companies: nonProfits,
+
     nonProfits: nonProfits, 
 
   })  
