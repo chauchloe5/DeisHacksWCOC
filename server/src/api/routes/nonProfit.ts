@@ -1,4 +1,5 @@
 import express from 'express'; 
+import { nonProfits } from '../../db';
 
 const router = express.Router();
 
@@ -6,7 +7,7 @@ const router = express.Router();
 router.get('/', (req, res, next) => {
   res.setHeader('Content-Type', 'application/json');
   res.status(200).json({ 
-    message: 'Got nonProfit get' ,
+    nonProfits: nonProfits
   });
 });
 
@@ -16,8 +17,10 @@ router.post('/', (req: any, res, next) => {
   // add profit-id to company.swipe-right
   // non-profit.swipe-right(company-id);
   res.status(201).json({
-    id: req.body.id,
-    message: 'Non-profit was created ' + req.body.id,
+    id: req.body.id, // get nonProfit id
+    
+    nonProfits: nonProfits, 
+
   })  
 });
 

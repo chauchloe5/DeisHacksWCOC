@@ -8,7 +8,6 @@ import nonProfitRouter from './api/routes/nonProfit';
 import companyRouter from './api/routes/company';
 import forumRouter from './api/routes/forum';
 
-// import DATABASE_NAME = "name-of-database";
 
 (async () => {
   const app = express()

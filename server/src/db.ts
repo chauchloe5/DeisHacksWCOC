@@ -1,7 +1,6 @@
-import { EphemeralKeyInfo } from "tls";
-
 interface InonProfit {
     id: string,
+    name: string,
     whoSwipedRight: string[],
     profile: {
         logo: string, // String is reference link to where logo is stored
@@ -19,9 +18,28 @@ interface InonProfit {
     forum: string; // String is reference link to forum object
 }
 
-let nonProfits: InonProfit[] = [
+interface Icompany {
+    id: string,
+    name: string,
+    logo: string,
+    bio: string,
+    swipedRightOn: string[], // non-profits that the company has swiped right on
+}
+
+export let companies: Icompany[] = [
     {
-        id: 'The Waltham Partnership for Youth',
+        id: 'mNTRMoUIXz',
+        name: 'Waltham Chamber of Commerce',
+        logo: 'String representation',
+        bio: 'The Waltham Chamber of Commerce is an independent organization that represents the business community in the Waltham area and West Suburban region. There are nearly 600 business members who invest in the organization with their dollars, program ideas, and volunteer effort through committees and other related activities. In turn, the Chamber utilizes the investment to help business do business through local governmental affairs, state and federal legislative advocacy, public relations, economic and community development, business and educational programs, and a “voice for business."',
+        swipedRightOn: []
+    }
+]
+
+export let nonProfits: InonProfit[] = [
+    {
+        id: 'p0mJJV9sug',
+        name: 'The Waltham Partnership for Youth',
         whoSwipedRight: [],
         profile: {
             logo: 'Waltham Partnership for Youth Logo',
@@ -46,7 +64,8 @@ let nonProfits: InonProfit[] = [
         forum: 'String ID to WPY Forum'
     },
     {
-        id: 'The Charles River Museum of Industry and Innovation',
+        id: 'gY5MGCzf09',
+        name: 'The Charles River Museum of Industry and Innovation',
         whoSwipedRight: [],
         profile: {
             logo: 'The Charles River Museum of Industry and Innovation Logo',
@@ -68,4 +87,189 @@ let nonProfits: InonProfit[] = [
         },
         forum: 'String ID to Charles River Museum Forum'
     },
+    {
+        id: 'VRu6DyeTmW',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'KyfumHKgbO',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'gb1QoSZU41',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'vt3WbHfsfY',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'rbOoteS2pd',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'YO7Y7qaJ9q',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'rkkSMAlslL',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+    {
+        id: 'uPx31efA3g',
+        name: '',
+        whoSwipedRight: [],
+        profile: {
+            logo: 'Logo',
+            category: [
+                ''
+            ],
+            specialty: [
+                ''
+            ],
+            bio: '',
+            website: '',
+            primaryRepresentative: '',
+            contactInfo: {
+                email: '',
+                phoneNumber: '',
+                mailingAddress: '',
+            }
+        },
+        forum: 'String ID to Forum'
+    },
+
 ]
