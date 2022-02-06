@@ -88,178 +88,185 @@ const b = <nonProfitObject> {
     forum: 'String ID to Charles River Museum Forum'
 }
 const c = <nonProfitObject> {
-    name: '',
+    name: 'Charles River Community Health Center',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Health'
         ],
         specialty: [
-            ''
+            'Community Health'
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: '​​Charles River Community Health’s mission is to improve the health and well-being of the communities of Allston, Brighton, Waltham and surrounding areas by providing quality, comprehensive, coordinated care that is patient-centered, family friendly, and community focused.',
+        website: 'http://www.charlesriverhealth.org/',
+        primaryRepresentative: 'Elizabeth Browne',
         contactInfo: {
             email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            phoneNumber: '(781) 693-3800',
+            mailingAddress: '43 Foundry Avenue, MA, 02453',
         }
     },
     forum: 'String ID to Forum'
 }
 const d = <nonProfitObject> {
-    name: '',
+    name: 'The Haven Project',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Human Service'
         ],
         specialty: [
-            ''
+            'Homelessness',
+            'Youth Development'
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: "The Haven Project's mission is to equip and empower homeless and unaccompanied young adults north of Boston, between the ages of 17-24, with the skills and support they need to be safe and self-sufficient.",
+        website: 'https://havenproject.net/get-help/',
+        primaryRepresentative: 'Gini Mazman',
         contactInfo: {
-            email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            email: 'office@havenproject.net',
+            phoneNumber: '(781) 913-5738',
+            mailingAddress: '57 Munroe St, Lynn, MA, 01901',
         }
     },
     forum: 'String ID to Forum'
 }
 const e = <nonProfitObject> {
-    name: '',
+    name: 'American Consumer Credit Counselors ',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Public/Social Benefit'
         ],
         specialty: [
-            ''
+            'Financial Services'
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: 'To empower consumers with financial education to build a better life.',
+        website: 'https://www.consumercredit.com',
+        primaryRepresentative: 'Allen Amadin',
         contactInfo: {
-            email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            email: 'info@consumercredit.com',
+            phoneNumber: '(617)-559-5700',
+            mailingAddress: '130 Rumford Ave, Auburndale, MA, 02466',
         }
     },
     forum: 'String ID to Forum'
 }
 const f = <nonProfitObject> {
-    name: '',
+    name: 'The Right to Immigration Institute',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'International',
+            'Human Services'
         ],
         specialty: [
-            ''
+            'Law Services'
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: 'At The Right to Immigration Institute, we tackle this issue head on. By providing our services pro bono and training a talented team of paralegal and accredited representatives who can assist on cases, we are working to shrink the number of people who must face immigration court alone.',
+        website: 'https://www.therighttoimmigration.org/staff',
+        primaryRepresentative: 'Alejandro Bracamontes',
         contactInfo: {
-            email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            email: 'abracamontes@therighttoimmigration.org',
+            phoneNumber: '(781) 891-6689 Ext.207',
+            mailingAddress: '14b Felton Street, Waltham, MA, 02453',
         }
     },
     forum: 'String ID to Forum'
 }
 const g = <nonProfitObject> {
-    name: '',
+    name: 'REACH Beyond Domestic Violence, Inc.',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Human Services'
         ],
         specialty: [
-            ''
+            'Support for Domestic Abuse Survivors'
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: 'REACH provides survivors of domestic violence with safety, shelter, and a path to healing. Our innovative, community-based approach promotes healthy relationships, fosters collaboration, and empowers community members to be agents of change.',
+        website: 'http://www.reachma.org',
+        primaryRepresentative: 'Laura Van Zandt',
         contactInfo: {
-            email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            email: 'info@reachma.org',
+            phoneNumber: '(781) 891-0724',
+            mailingAddress: 'PO Box 540024, Waltham, MA, 02454',
         }
     },
     forum: 'String ID to Forum'
 }
 const h = <nonProfitObject> {
-    name: '',
+    name: 'The Telephone Museum',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Art, Cukture and Humanities'
         ],
         specialty: [
-            ''
+            'Technology',
+            'History',
+            'Innovation',
+            'Education',
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: "The Telephone Museum fosters enthusiasm for engineering by leveraging America’s remarkable telephone history with educational programs that compare modern day telecommunications to vintage technology. The museum’s telephone collection is the focal point of this effort, and in conjunction with a maker space, serves to cultivate the entrepreneurial spirit which gave birth to the telephone and continues to drive today’s inventors and innovators.",
+        website: 'http://www.telephone-museum.org',
+        primaryRepresentative: 'Vincent Valentine',
         contactInfo: {
             email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            phoneNumber: '(781) 314-6864',
+            mailingAddress: '289 Moody Street, Waltham, MA. 02453',
         }
     },
     forum: 'String ID to Forum'
 }
 const i = <nonProfitObject> {
-    name: '',
+    name: 'Communities United, Inc.',
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Education and Research',
+            'Human Services',
         ],
         specialty: [
-            ''
+            'Education for Youth',
+            'Family Services',
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: "Communities United, Inc.’s mission is to provide high quality education and family services to a diverse population of children, ages 4 months to 5 years. We strive to ensure the success of the child, empower the family and strengthen the community.",
+        website: 'http://www.communitiesunitedinc.org',
+        primaryRepresentative: 'Terri Natale',
         contactInfo: {
-            email: '',
-            phoneNumber: '',
-            mailingAddress: '',
+            email: 'enrollment@communitiesunitedinc.org',
+            phoneNumber: '(617) 744-6076',
+            mailingAddress: '4 Militia Drive, Suite 1, Lexington, MA, 02421',
         }
     },
     forum: 'String ID to Forum'
 }
 const j = <nonProfitObject> {
-    name: '',
+    name: "Land's Sake",
     whoSwipedRight: [],
     profile: {
         logo: 'Logo',
         category: [
-            ''
+            'Environemnt and Animals'
         ],
         specialty: [
-            ''
+            'Agriculture'
         ],
-        bio: '',
-        website: '',
-        primaryRepresentative: '',
+        bio: "Connecting people to the land to build community and inspire lifelong stewardship",
+        website: 'https://landssake.org',
+        primaryRepresentative: 'Pam Hess',
         contactInfo: {
             email: '',
-            phoneNumber: '',
-            mailingAddress: '',
-        }
+            phoneNumber: '(781) 893-1162',
+            mailingAddress: '27 Crescent Street, Weston, MA, 02493',
+        }, 
     },
     forum: 'String ID to Forum'
 }
