@@ -205,7 +205,7 @@ const h = <nonProfitObject> {
     profile: {
         logo: 'Logo',
         category: [
-            'Art, Cukture and Humanities'
+            'Art, Culture and Humanities'
         ],
         specialty: [
             'Technology',
