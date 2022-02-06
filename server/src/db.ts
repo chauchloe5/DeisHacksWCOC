@@ -17,7 +17,7 @@ const company = <companyObject> {
 companies.set('mNTRMoUIXz', company);
 
 // CREATE A NON PROFIT OBJECT
-type nonProfitObject = {
+export type nonProfitObject = {
     name: string,
     whoSwipedRight: string[],
     profile: {
@@ -62,7 +62,7 @@ const a = <nonProfitObject> {
             mailingAddress: '617 Lexington Street, Waltham MA 02452',
         }
     },
-    forum: 'String ID to WPY Forum'
+    forum: 'mcJgDAqWiB'
 }
 const b = <nonProfitObject> {
     name: 'The Charles River Museum of Industry and Innovation',
@@ -85,7 +85,7 @@ const b = <nonProfitObject> {
             mailingAddress: '154 Moody St, Waltham MA 02453-5302',
         }
     },
-    forum: 'String ID to Charles River Museum Forum'
+    forum: 'hAb4mAhHTG'
 }
 const c = <nonProfitObject> {
     name: 'Charles River Community Health Center',
@@ -107,7 +107,7 @@ const c = <nonProfitObject> {
             mailingAddress: '43 Foundry Avenue, MA, 02453',
         }
     },
-    forum: 'String ID to Forum'
+    forum: 'EcMMikHlSg'
 }
 const d = <nonProfitObject> {
     name: 'The Haven Project',
@@ -281,3 +281,74 @@ nonProfits.set('rbOoteS2pd', g);
 nonProfits.set('YO7Y7qaJ9q', h);
 nonProfits.set('rkkSMAlslL', i);
 nonProfits.set('uPx31efA3g', j);
+
+// FORUM DATA STRUCTURE
+let forums = [
+    {
+        name: 'The Waltham Partnership for Youth',
+    whoSwipedRight: [],
+    profile: {
+        logo: 'Waltham Partnership for Youth Logo',
+        category: [
+            'Human Services',
+            'Educational'
+        ],
+        specialty: [
+            'Youth Programs',
+            'Internship Opportunities for Youth',
+            'Teaching Social Justice'
+        ],
+        bio: 'WPY works to ensure that the wealth of resources in and around Waltham are available for the youth and families who need them most. We facilitate high-impact community partnerships that support health and wellness, leadership development, and economic opportunity for Waltham youth while working to address long-standing structural inequities.',
+        website: 'http://www.walthampartnershipforyouth.org',
+        primaryRepresentative: 'Kaytie Dowcett',
+        contactInfo: {
+            email: 'info@walthampartnershipforyouth.org',
+            phoneNumber: '(781) 314-3367',
+            mailingAddress: '617 Lexington Street, Waltham MA 02452',
+        }
+    },
+    forum: {
+        id: 'mcJgDAqWiB',
+        questions: [
+            {
+                title: 'Help Wanted!',
+                date: '2/6/2022',
+                description: 'We are currently low in staff, and looking for people interested in Bookkeeping & Office Manager',
+                comments: [ 
+                    {
+                        id: 'c2GlICb8Gc',
+                        user: 'Waltham Chamber of Commerce',
+                        description: 'We have people looking for jobs! We\'ll send them your way.',
+                    }, 
+                    {
+                        id: 'QUfZ9ee0cd',
+                        user: 'The Waltham Partnership for Youth',
+                        description: 'Thank you so much!',
+                    }
+                ]
+            }, 
+            {
+                title: 'Looking for Partners to Grow our Internship program',
+                date: '1/29/2022',
+                description: 'Our High School Summer Internship program is looking to recruit more educators, and update 100 sets of lab kits. Employers and students interested in participating should reach out to Magali at magali@walthampartnershipforyouth.org.',
+                comments: [ 
+                    {
+                        id: '4uOxzgdkDp',
+                        user: 'Waltham Chamber of Commerce',
+                        description: 'Is your group still looking for assistance with this?',
+                    }, 
+                ]
+            },
+            {
+                title: 'Looking for Diversified Sources of Funding',
+                date: '1/13/2022',
+                description: 'We would like to encourage multi-sector collaboration and convene diverse stakeholders to work collectively and strategically toward improved opportunities and outcomes for Waltham\'s youth.',
+                comments: [ 
+                    {} 
+                ]
+            }
+        ]
+        
+    }
+}
+]

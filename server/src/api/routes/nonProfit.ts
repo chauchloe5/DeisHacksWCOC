@@ -8,27 +8,25 @@ const router = express.Router();
 router.get('/', (req, res, next) => {
   res.setHeader('Content-Type', 'application/json');
   res.status(200).json({ 
-    nonProfits: nonProfits
+    nonProfit: nonProfits
   });
 });
 
 // Add profit-id to swipe-right list of company 
 // and add company-id to swipe-right list of non-profit
 router.post('/', (req: any, res, next) => {
-  // add profit-id to company.swipe-right
-  // non-profit.swipe-right(company-id);
-  const cId = req.body.companyId,
-  const nID = req.body.nonProfitId,
-  
-  res.status(201).json({
+  const cId = req.body.companyId;
+  const nID = req.body.nonProfitId;
+  let company = companies.get(cId);
+  let np = nonProfits.get(nID);
+  company?.swipedRightOn.push(nID);
+  np?.whoSwipedRight.push(cId);
+ 
+  res.status(201);
 
+  // res.status(201).json({
 
-
-    const company = companies: nonProfits,
-
-    nonProfits: nonProfits, 
-
-  })  
+  // })  
 });
 
 router.put('/', (req, res, next) => {
