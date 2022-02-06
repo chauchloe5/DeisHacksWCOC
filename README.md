@@ -1,6 +1,6 @@
 # DeisHacks Project for Waltham Chamber of Commerce
 
-[![Author](http://img.shields.io/badge/author-@KellyZhangL-blue.svg)] [![Author](http://img.shields.io/badge/author-@chauchloe5-blue.svg)] [![Author](http://img.shields.io/badge/author-@Liaro0903-blue.svg)]
+![Author](http://img.shields.io/badge/author-@KellyZhangL-blue.svg) ![Author](http://img.shields.io/badge/author-@chauchloe5-blue.svg) ![Author](http://img.shields.io/badge/author-@Liaro0903-blue.svg)
 
 ## Background
 This project is the product of DeisHacks, a 48 hour hackathon for social good. We chose to work with the Waltham Chamber of Commerce, an organization that supports and advocates for local businesses. Our primary goal coming into this hackathon was to develop a solution to efficiently connect local for-profit and non-profit businesses. 
